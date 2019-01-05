@@ -1,0 +1,19 @@
+
+--- # fireeye-ex ex.py configuration file
+
+# IP address or resolvable hostname of the appliance server where the web
+# interface is hosted
+hostname:      "<hostname>"
+# given name of the program
+name:          "fireeye-ex"
+# initial "http" or "https" protocol portion of the URI scheme
+proto:         "https"
+# sleep in seconds of the heartbeat check of search completion
+search_sleep:  3
+# HTTP request timeout value for the "requests" module
+timeout:       120
+# customized HTTP user-agent string
+# leave empty for the default of the "requests" module
+user_agent:    "fireeye-ex ex.py"
+
+... # end
