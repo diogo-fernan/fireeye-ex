@@ -88,3 +88,7 @@ $ python3 ex.py -a addr.txt -s subj.txt "m/d/Y-m/d/Y"
 # Change History
 
 * 20190105: release of v1.0.
+
+# Author
+
+[@dfernan__](https://twitter.com/dfernan__)
